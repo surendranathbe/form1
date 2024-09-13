@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my form</title>
+</head>
+<body>
+    <div class="container">
+    <div class="name">
+      <h1>MY FORM</h1>
+     </div>
+     <div class="form">
+            <form action="process.phb" method="post">
+                <label for="first name">FIRST NAME:</label>
+                <input type="text" name="first name" placeholder="enter your name"><br><br>
+                <label for="last name">LAST NAME:</label>
+                <input type="text" name="last name" placeholder="enter your last name"><br><br>
+                <label for="email">EMAIL:</label>
+                <input type="text" name="email" placeholder="enter your email"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="enter your password"><br><br>
+                 <label for="moible">MOIBLE:</label>
+                 <input type="number" name="moible" placeholder="enter your moible number"><br><br>
+                 <label for="section">SECTION:</label>
+                 <select name="section" id="section">
+                    <option value="cse1">CSE1</option>
+                    <option value="cse2">CSE2</option>
+                    <option value="ai">AI</option>
+                    <option value="cyber">CYBER</option>
+                    <option value="ece">ECE</option>
+                    <option value="eee">EEE</option>
+                    <option value="mech">MECH</option>
+                 </select>
+                 <label for="gender">GENDER:</label>
+                 <select name="gender" id="gender">
+                    <option value="male">MALE</option>
+                     <option value="female">FEMALE</option>
+                      <option value="other">OTHER</option>
+                    </select>
+                    <br><br>
+                    <label for="address">ADDRESS:</label>
+                    <input type="text" name="address" placeholder="enter your address"><br><br>
+                    <label for="date of birth">DATA OF BIRTH:</label>
+                    <input type="date" name="data of birth" ><br><br>
+                     <button id="button">sumbit</button>
+            </form>
+        </div>
+
+    </div>    
+    
+</body>
+</html>
